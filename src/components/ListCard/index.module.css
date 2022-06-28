@@ -1,0 +1,28 @@
+.list-card {
+	min-width: 390px;
+	margin-top: 20px;
+	box-sizing: border-box;
+	padding: 8px;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	background-color: #fff;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 390px) {
+	.list-card {
+		width: 90vw;
+	}
+}
+
+@media (min-width: 768px) {
+	.list-card {
+		width: 40vw;
+	}
+}
+
+@media (min-width: 1200px) {
+	.list-card {
+		width: 30vw;
+	}
+}

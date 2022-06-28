@@ -1,0 +1,43 @@
+.App {
+	text-align: center;
+	h1 {
+		color: #f40;
+	}
+	.operation {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		flex-wrap: wrap;
+		width: 100%;
+		max-width: 800px;
+		padding: 10px 20px;
+		button {
+			font-weight: bold;
+			border: 1px solid #fff;
+			background-color: #fff;
+			color: #3a3a3a;
+			height: 30px;
+			box-sizeing: border-box;
+			margin-left: 10px;
+			border-radius: 4px;
+			border: 1px solid #3a3a3a;
+			&:hover {
+				background-color: #3a3a3a;
+				color: #fff;
+				cursor: pointer;
+			}
+		}
+	}
+	.extra {
+		width: 100%;
+		.add-bill {
+			width: 100%;
+			display: flex;
+			justify-content: space-around;
+		}
+		.more-bill {
+			display: flex;
+			justify-content: space-around;
+		}
+	}
+}

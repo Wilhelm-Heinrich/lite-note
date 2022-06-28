@@ -1,0 +1,35 @@
+.filter {
+	box-sizeing: border-box;
+	padding: 0 10px;
+	width: 100vw;
+	height: 60px;
+	background-color: #3a3a3a;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	select {
+		width: 25vw;
+		height: 30px;
+	}
+	span {
+		color: #fff;
+		margin-left: 10px;
+		fonst-size: 12px;
+	}
+	button {
+		font-weight: bold;
+		border: 1px solid #fff;
+		background-color: #3a3a3a;
+		color: #fff;
+		width: 60px;
+		height: 30px;
+		box-sizeing: border-box;
+		margin-left: 10px;
+		border-radius: 4px;
+		&:hover {
+			background-color: #fff;
+			color: #3a3a3a;
+			cursor: pointer;
+		}
+	}
+}
